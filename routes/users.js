@@ -5,7 +5,6 @@ router.route('/').get((req, res) => {
     User.find()
     .then(users => {
         res.json(users);
-        res.send(users);
     })
     .catch(err => res.status(400).json('Error is: ' + err));
 });
