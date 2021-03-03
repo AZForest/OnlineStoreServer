@@ -5,7 +5,6 @@ router.route('/').get((req, res) => {
     Product.find()
     .then(products => {
         res.json(products);
-        res.send(products);
     })
     .catch(err => res.status(400).json('Error is: ' + err));
 });
