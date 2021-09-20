@@ -4,6 +4,11 @@
 
 ## Technology
 
+### Server:
+
 * Express / Node
-* MongoDB
 * Heroku
+
+### Database:
+
+* MongoDB
